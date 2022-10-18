@@ -9,6 +9,7 @@ enum Message {
 }
 
 fn main() {
+    
     println!("{:?}", Message::Quit);
     println!("{:?}", Message::Echo);
     println!("{:?}", Message::Move);
